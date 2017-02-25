@@ -1,0 +1,50 @@
+
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;   /*清楚点击后高亮效果*/
+    -webkit-box-sizing: border-box;   /*默认盒子宽度是加上border*/
+}
+
+body{
+    font-size: 14px;
+    font-family: "Microsoft YaHei",sans-serif; /*sans-serif是手机默认字体*/
+    color: #000;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+input,textarea{
+    border: none;
+    resize: none;
+    outline: none; /*点击后蓝色背景*/
+
+    -webkit-appearance: none; /*默认样式清除，立体效果等*/
+}
+
+/*清除浮动*/
+.clearfix::before,
+.clearfix::after{
+    content: " ";
+    display: block;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+/*精灵图缩放成200*200*/
+[class^='icon_'],
+[class^=' icon_']{
+    background: url("../images/sprites.png") no-repeat;
+    background-size: 200px 200px;
+
+}
