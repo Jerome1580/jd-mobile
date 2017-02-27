@@ -9,13 +9,13 @@
 ```
 
 ## 效果图
-商城首页|分类页|购物车
+商城首页 | 分类页 | 购物车
 ------------ | ------------- | ------------- 
-![商城首页][1]|![分类页][2]|![购物车][3]
+![1]|![2]|![3]
 
 
 
-[1]: imgages/index.png
-[2]: imgages/category.png
-[3]: imgages/cart.png
+[1]: images/index.png
+[2]: images/category.png
+[3]: images/cart.png
 
