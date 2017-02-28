@@ -81,11 +81,14 @@ body{
     position: relative;
 }
 .jd_banner ul:first-child{
-    width: 800%;
+    width: 1000%;
+    transform: translateX(-10%);
+    -webkit-transform: translateX(-10%);
 }
 .jd_banner ul:first-child li{
-    width: 12.5%;
+    width: 10%;
     float: left;
+
 }
 .jd_banner ul:first-child li img{
     width: 100%;
@@ -115,7 +118,7 @@ body{
 }
 
 .jd_banner ul:last-child li.now{
-    background: #fff;
+    background: yellow;
 }
 
 /*导航栏*/
@@ -138,6 +141,7 @@ body{
     height: 69px;
     float: left;
 }
+
 
 .jd_nav ul li a{
    display: block;
